@@ -1,0 +1,31 @@
+= vim-file-to-file
+
+A vim plugin to write part of a file to a separete file.
+
+== Usage
+
+[source,clojure]
+----
+;; ==FILE== /path/to/file.clj
+(println "These lines are exported to /path/to/file.clj when current file is saved.")
+;; ==FILE== END
+----
+
+== Installation
+
+=== vim-plug
+
+[source,vim]
+----
+Plug 'liquidz/vim-file-to-file'
+----
+
+== Help / Configuration
+
+link:./doc/vim-file-to-file.txt[vim-file-to-file.txt]
+
+== License
+
+Copyright (c) 2022 http://twitter.com/uochan[Masashi Iizuka]
+
+Distributed under the MIT License.
